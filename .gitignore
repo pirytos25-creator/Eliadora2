@@ -1,0 +1,18 @@
+# Zależności Node (instalowane na żądanie przez npm install)
+node_modules/
+_dev/node_modules/
+
+# Logi
+npm-debug.log*
+yarn-debug.log*
+*.log
+
+# Systemowe
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Build artefakty (nie powinny się tu pojawić, ale na wszelki wypadek)
+dist/
+build/
